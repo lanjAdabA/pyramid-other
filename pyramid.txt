@@ -1,0 +1,30 @@
+// dart program to print pyramid
+
+void main() {
+String str="";
+for (int i=0;i<=5;i++) {
+//str=str+(i+1).toString()+"";
+for(int j=0;j<=i;j++) {
+str=str+"*";
+}
+str=str+"\n";
+}
+print(str);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
